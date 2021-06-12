@@ -11,11 +11,11 @@ We start from one corner of the matrix where the properties are easily identifia
 <li> If 'q' is equal to the current entry, we're done. We return the current position.</li>
 <li> If 'q' is smaller than the current entry, 'x':
     <ol>
-    <li> We move left as all elements in the column of 'x'' is greater than or equal to 'x'', therefore q is smaller than all these elements so we can ignore them. If we can no longer move left, we return -1.</li>
+    <li> We move left as all elements in the column of 'x' is greater than or equal to 'x', therefore q is smaller than all these elements so we can ignore them. If we can no longer move left, we return -1.</li>
     </ol>
 <li> If 'q' is greater than the current entry, 'x':</li>
     <ol>
-    <li> We move down as all elements in the row of 'x'' is less than or equal to 'x'', therefore q is bigger than all these elements so we can ignore them.  If we can no longer move down, we return -1.</li>
+    <li> We move down as all elements in the row of 'x' is less than or equal to 'x', therefore q is bigger than all these elements so we can ignore them.  If we can no longer move down, we return -1.</li>
     </ol> 
 </ol>
 
