@@ -26,7 +26,10 @@ Given our list A, we want to search for the duplicate element.
 
 Visualization of Search: Starting from A[2] since our list is of length 6
 ```
-↓: Points to entry at 'midind'; ▼: Points to 'midentry'; •: Points to entry at 'midind' and 'midentry'
+↓: Points to entry at 'midind'
+▼: Points to 'midentry'
+•: Points to entry at 'midind' and 'midentry'
+
     ↓ ▼
 1 2 2 3 4 5
 ```
@@ -41,7 +44,10 @@ Given our list B, we want to search for the duplicate element.
 
 Visualization of Search: Starting from B[9] since our list is of length 19
 ```
-↓: Points to entry at 'midind'; ▼: Points to 'midentry'; •: Points to entry at 'midind' and 'midentry'
+↓: Points to entry at 'midind'
+▼: Points to 'midentry'
+•: Points to entry at 'midind' and 'midentry'
+
                      •
 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 19 20 21
                                     •
@@ -59,7 +65,10 @@ Given our list C, we want to search for the duplicate element.
 
 Visualization of Search: Starting from C[12] since our list is of length 26
 ```
-↓: Points to entry at 'midind'; ▼: Points to 'midentry'; •: Points to entry at 'midind' and 'midentry'
+↓: Points to entry at 'midind'
+▼: Points to 'midentry'
+•: Points to entry at 'midind' and 'midentry'
+
                            ↓ ▼
 -3 -2 -1 0 1 2 3 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
              ↓ ▼
