@@ -27,7 +27,7 @@ Given our matrix A, we want to search for q = 6.
 
 ![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Output%201.PNG "Sample Output 1")
 
-Visualization of Search: Starting from A[4][4] since A is a 5x5 matrix:
+Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 ```
  1    5 —  8 — 19 — 21
       |    
@@ -48,7 +48,7 @@ Given our matrix A, we want to search for q = 29.
 
 ![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Output%202.PNG "Sample Output 2")
 
-Visualization of Search: Starting from A[4][4] since A is a 5x5 matrix:
+Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 ```
  1    5    8   19   21
                      |
@@ -69,7 +69,7 @@ Given our matrix A, we want to search for q = 14.
 
 ![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Output%203.PNG "Sample Output 3")
 
-Visualization of Search: Starting from A[4][4] since A is a 5x5 matrix:
+Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 ```
  1    5    8 — 19 — 21
            |     
