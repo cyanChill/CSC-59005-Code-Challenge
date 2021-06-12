@@ -22,18 +22,22 @@ def find_q(A, q):
      
      # We work our way towards the b.l.c. from t.r.c. to find entry 'q'
      while j >= 0 and i <= n:
+          # Loop only stops if we can't go left/down anymore to find a
+          # smaller/bigger entry respectively
           if q == A[i][j]:
                return i,j
           elif q < A[i][j]:
                # We can elimate the current column as by the definition
                # of the structure, all entries in the column will be
-               # greater than or equal to A[i][j 
+               # greater than or equal to A[i][j] and since q < A[i][j], 
+               # q is less than all entries in the column 
                j -= 1
           else:
-               # The resulting value is where q > A[i][j], in this case,
-               # by the definition of the structure, all entries in the
-               # row is less than the current row is less than or equal
-               # to A[i][j] 
+               # This else covers for when q > A[i][j]
+               # We can elimate the current row as by definition of the
+               # structure, all entries in the row will be less than or
+               # equal to A[i][j] and since q > A[i][j], q is greater
+               # than all entries in the row 
                i += 1
      
      return -1
