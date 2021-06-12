@@ -24,7 +24,8 @@ def findrepeated(A: list, start: int, end: int):
     midentry = math.ceil((A[start] + A[end])/2)
     midind = math.floor((start + end)/2)
 
-    # Guarantees that the A[midind] is not a duplicate
+    # Guarantees see if A[midind] is a duplicate by looking at adjacent
+    # entries
     if A[midind] == A[midind - 1] or A[midind] == A[midind + 1]:
         return A[midind]
 
