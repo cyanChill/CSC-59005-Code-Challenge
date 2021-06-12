@@ -4,20 +4,17 @@
 Given a 2-D square matrix A[n,n] and it is known that the values along each row and each column are sorted in ascending order. Write an efficient program to search for the location of query value q in A: if q is in A, then return the position (i, j); otherwise returns -1.
 
 ## Solution Method:
-We start from one corner of the matrix where the properties are easily identifiable and kept tracked of and find 'q' starting from that point. The option we have chosen is the top right corner of the matrix as if we want to find 'q' which is a smaller number than the starting position, 'x', all we have to do is work our way left. If we want to find a 'q' that's big, we have to work our way down. The good thing about starting from the top right corner is that we only need to worry about checking in 2 directions (we don't care about checking the right entries or the entries above as we work our way down and left, elimating those entries from the possibilities of where 'q' can be).
+We start from one corner of the matrix where the properties are easily identifiable and kept tracked of and find ***q*** starting from that point. The option we have chosen is the top right corner of the matrix as if we want to find ***q*** which is a smaller number than the starting position, ***x***, all we have to do is work our way left. If we want to find a ***q*** that's big, we have to work our way down. The good thing about starting from the top right corner is that we only need to worry about checking in 2 directions (we don't care about checking the right entries or the entries above as we work our way down and left, elimating those entries from the possibilities of where ***q*** can be).
 
-**The rules we follow for traversing towards the entry we're searching for, 'q':**
-<ol>
-<li> If 'q' is equal to the current entry, we're done. We return the current position.</li>
-<li> If 'q' is smaller than the current entry, 'x':
-    <ol>
-    <li> We move left as all elements in the column of 'x' is greater than or equal to 'x', therefore q is smaller than all these elements so we can ignore them. If we can no longer move left, we return -1.</li>
-    </ol>
-<li> If 'q' is greater than the current entry, 'x':</li>
-    <ol>
-    <li> We move down as all elements in the row of 'x' is less than or equal to 'x', therefore q is bigger than all these elements so we can ignore them.  If we can no longer move down, we return -1.</li>
-    </ol> 
-</ol>
+**The rules we follow for traversing towards the entry we're searching for, ***q***:**
+1. If ***q*** is equal to the current entry, we're done. We return the current position.</li>
+2. If ***q*** is smaller than the current entry, ***x***:
+
+    a. We move left as all elements in the column of ***x*** is greater than or equal to ***x***, therefore ***q*** is smaller than all these elements so we can ignore them. If we can no longer move left, we return -1.
+3. If ***q*** is greater than the current entry, ***x***:
+
+    a. We move down as all elements in the row of ***x*** is less than or equal to ***x***, therefore ***q*** is bigger than all these elements so we can ignore them.  If we can no longer move down, we return -1.
+
 
 
 ### Sample Input 1:
