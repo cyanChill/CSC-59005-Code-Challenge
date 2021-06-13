@@ -38,7 +38,7 @@ Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 ```
 > We can see that we found the value where q is based on the path taken.
 
-### Sample Input 2
+### Sample Input 2:
 Given our matrix A, we want to search for q = 29.
 
 ![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Input%202.PNG "Sample Input 2")
@@ -59,7 +59,7 @@ Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 ```
 > Since we see that we can't go down any further from entry 19, we return -1 as we claim that 29 is not in the matrix. We know this is true as from our algorithm, we know that the numbers on the right of the path taken are greater than 29, and the numbers left of the path is less than 29.
 
-### Sample Input 3
+### Sample Input 3:
 Given our matrix A, we want to search for q = 14.
 
 ![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Input%203.PNG "Sample Input 3")
