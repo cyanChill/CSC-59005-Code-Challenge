@@ -35,7 +35,7 @@ Visualization of Search: Starting from A[2] since our list is of length 6
 ```
 > We can see when we check the adjacent entries to '2', we see that there's a 2 adjacent to it so we're done.
 
-### Sample Input 2
+### Sample Input 2:
 Given our list B, we want to search for the duplicate element.
 
 ![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-2/blob/main/images/Sample%20Input%202.PNG "Sample Input 2")
@@ -56,7 +56,7 @@ Visualization of Search: Starting from B[9] since our list is of length 19
                                        19 19 20 21
 ```
 
-### Sample Input 3
+### Sample Input 3:
 Given our list C, we want to search for the duplicate element.
 
 ![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-2/blob/main/images/Sample%20Input%203.PNG "Sample Input 3")
