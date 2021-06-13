@@ -12,9 +12,9 @@ The only search algorithm that has a running time of O(logn) is binary search. H
 3. Before comparing the entry at ***midind*** with ***midentry***, we check the adjacent entries to the entry at ***midind*** to see if it's equal to either of them and if it is, we return that entry.
 4. If the adjacent entries to the entry at ***midind*** are not equal it, we compare the entry at ***midind*** with ***midentry***. Depending on the comparison, one of 2 things can occur:
     
-    a. If the entry at ***midind*** is less than ***midind***, we can say that the elements in the range is shifted over to the right by 1 due to there being a duplicate element on the left subarray of ***midind***. We then recursively call our function *findrepeated* with the parameters being the array, the original start index, and ***midind*** - 1 (as this will be our new end index as we figured out that the duplicate element is in the left subarray).
+    a. If the entry at ***midind*** is less than ***midentry***, we can say that the elements in the range is shifted over to the right by 1 due to there being a duplicate element on the left subarray of ***midind***. We then recursively call our function *findrepeated* with the parameters being the array, the original start index, and ***midind*** - 1 (as this will be our new end index as we figured out that the duplicate element is in the left subarray).
 
-    b. If the element at ***midind*** is equal to ***midind***, we can say that up to this point, there has not be any duplicate elements and that the duplicate element is on the right subarray of ***midind***. We then recursively call our function *findrepeated* with the parameters being the array, ***midind*** + 1 (as this will be our new start index as we figured out that the duplicate element is in the right subarray), and the original end index.
+    b. If the element at ***midind*** is equal to ***midentry***, we can say that up to this point, there has not be any duplicate elements and that the duplicate element is on the right subarray of ***midind***. We then recursively call our function *findrepeated* with the parameters being the array, ***midind*** + 1 (as this will be our new start index as we figured out that the duplicate element is in the right subarray), and the original end index.
 
 
 ### Sample Input 1:
