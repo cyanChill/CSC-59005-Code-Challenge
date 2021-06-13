@@ -1,12 +1,13 @@
 import math
 
-def findrepeated(A: list, start: int, end: int):
+def findrepeated(A: list[int], start: int, end: int):
     '''
     Finds the duplicate element in a sorted array recursively where the 
     element in the array are consecutive
 
         Parameters:
-            A (list): A sorted list where the elements are consecutive
+            A (list[int]): A sorted list of integers where the elements
+                           are consecutive
             start (int): The starting index
             end (int): The ending index
 
@@ -15,24 +16,27 @@ def findrepeated(A: list, start: int, end: int):
             A[midind]: Returns the repeated element in the array when
                        found
     '''
-    # Algorithm only works with O(logn) time if all the elements are
-    # consecutive with only 1 repeat and the array isn't empty, and if the 
-    # start index is on the end index, we don't need to check anything
+    # - Algorithm only works with O(logn) time if all the elements are
+    #   consecutive with only 1 repeat and the array isn't empty
+    # - "A[start] + (end - start) - 1" checks to see if consecutive 
+    #   elements holds true - also prevents lists of size 1
+    # - If start is past the end index, we don't need to check anything
     if len(A) == 0 or A[start] + (end - start) - 1 != A[end] or start > end:
         return None
     
     midentry = math.ceil((A[start] + A[end])/2)
     midind = math.floor((start + end)/2)
-
-    # Guarantees see if A[midind] is a duplicate by looking at adjacent
-    # entries
+    
+    # See if A[midind] is a duplicate by looking at adjacent entries
+    # We can check A[midind + 1] as we know the subarray length is 
+    # greater than 2, and if we do have 2 elements in the subarray,
+    # midind will always be the start index since we take the floor value
     if A[midind] == A[midind - 1] or A[midind] == A[midind + 1]:
         return A[midind]
-
-    if A[midind] < midentry:
+    elif A[midind] < midentry:
         return findrepeated(A, start, (midind - 1))
-    else:
-        return findrepeated(A, (midind + 1), end)
+    
+    return findrepeated(A, (midind + 1), end)
 
 
 # Testing Code:
