@@ -16,7 +16,7 @@ def replace_taboo(txtfile: str, taboolist: list[str]):
             cnt (int): Total number of replacments of taboo words in text 
                        file
     '''
-    if len(taboolist) == 0:
+    if not taboolist:
         return 0
     
     try:                            # Make sure 'txtfile' is a text file
