@@ -68,7 +68,7 @@ def find_replace_taboo(taboofile: str):
         # Get a list of taboo words and put it in a list (automatically 
         # removes extra whitespaces) from "taboo.txt" which is formatted 
         # with 1 taboo word per line 
-            taboolist = [x.strip() for x in t.readlines()]
+            taboolist = [x.strip() for x in t.readlines() if x.strip()]
     except FileNotFoundError:
         return None
 
