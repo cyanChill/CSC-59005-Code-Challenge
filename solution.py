@@ -21,7 +21,8 @@ def findrepeated(A: list[int], start: int, end: int):
     # - "A[start] + (end - start) - 1" checks to see if consecutive 
     #   elements holds true - also prevents lists of size 1
     # - If start is past the end index, we don't need to check anything
-    if len(A) == 0 or A[start] + (end - start) - 1 != A[end] or start > end:
+    
+    if not A or A[start] + (end - start) - 1 != A[end] or start > end:
         return None
     
     midentry = math.ceil((A[start] + A[end])/2)
@@ -31,12 +32,12 @@ def findrepeated(A: list[int], start: int, end: int):
     # We can check A[midind + 1] as we know the subarray length is 
     # greater than 2, and if we do have 2 elements in the subarray,
     # midind will always be the start index since we take the floor value
-    if A[midind] == A[midind - 1] or A[midind] == A[midind + 1]:
+    if A[midind] == A[midind + 1] or (A[midind] == A[midind - 1] and midind > 0):
         return A[midind]
     elif A[midind] < midentry:
         return findrepeated(A, start, (midind - 1))
-    
-    return findrepeated(A, (midind + 1), end)
+    else:
+        return findrepeated(A, (midind + 1), end)
 
 
 # Testing Code:
