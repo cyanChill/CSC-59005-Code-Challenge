@@ -23,9 +23,9 @@ The only search algorithm that has a running time of O(logn) is binary search. H
 
 Given our list A, we want to search for the duplicate element.
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-2/blob/main/images/Sample%20Input%201.PNG "Sample Input 1")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-2/images/Sample%20Input%201.PNG "Sample Input 1")
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-2/blob/main/images/Sample%20Output%201.PNG "Sample Output 1")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-2/images/Sample%20Output%201.PNG "Sample Output 1")
 
 Visualization of Search: Starting from A[2] since our list is of length 6
 
@@ -44,9 +44,9 @@ Visualization of Search: Starting from A[2] since our list is of length 6
 
 Given our list B, we want to search for the duplicate element.
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-2/blob/main/images/Sample%20Input%202.PNG "Sample Input 2")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-2/images/Sample%20Input%202.PNG "Sample Input 2")
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-2/blob/main/images/Sample%20Output%202.PNG "Sample Output 2")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-2/images/Sample%20Output%202.PNG "Sample Output 2")
 
 Visualization of Search: Starting from B[9] since our list is of length 19
 
@@ -67,9 +67,9 @@ Visualization of Search: Starting from B[9] since our list is of length 19
 
 Given our list C, we want to search for the duplicate element.
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-2/blob/main/images/Sample%20Input%203.PNG "Sample Input 3")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-2/images/Sample%20Input%203.PNG "Sample Input 3")
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-2/blob/main/images/Sample%20Output%203.PNG "Sample Output 3")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-2/images/Sample%20Output%203.PNG "Sample Output 3")
 
 Visualization of Search: Starting from C[12] since our list is of length 26
 
@@ -88,4 +88,3 @@ Visualization of Search: Starting from C[12] since our list is of length 26
                3 3
 ```
 
-> > > > > > > code-challenge-2/main
