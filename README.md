@@ -23,9 +23,9 @@ We start from one corner of the matrix where the properties are easily identifia
 
 Given our matrix A, we want to search for q = 6.
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Input%201.PNG "Sample Input 1")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-3/images/Sample%20Input%201.PNG "Sample Input 1")
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Output%201.PNG "Sample Output 1")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-3/images/Sample%20Output%201.PNG "Sample Output 1")
 
 Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 
@@ -47,9 +47,9 @@ Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 
 Given our matrix A, we want to search for q = 29.
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Input%202.PNG "Sample Input 2")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-3/images/Sample%20Input%202.PNG "Sample Input 2")
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Output%202.PNG "Sample Output 2")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-3/images/Sample%20Output%202.PNG "Sample Output 2")
 
 Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 
@@ -71,9 +71,9 @@ Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 
 Given our matrix A, we want to search for q = 14.
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Input%203.PNG "Sample Input 3")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-3/images/Sample%20Input%203.PNG "Sample Input 3")
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-3/blob/main/images/Sample%20Output%203.PNG "Sample Output 3")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-3/images/Sample%20Output%203.PNG "Sample Output 3")
 
 Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 
@@ -90,5 +90,4 @@ Visualization of Search: Starting from A[0][4] since A is a 5x5 matrix:
 ```
 
 > Since we see that we can't go left any further from entry 16, we return -1 as we claim that 14 is not in the matrix. We know this is true as from our algorithm, we know that the numbers on the right of the path taken are greater than 14, and the numbers left of the path is less than 14.
->
-> > > > > > > code-challenge-3/main
+
