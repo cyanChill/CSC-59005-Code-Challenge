@@ -12,28 +12,26 @@ The only real work needed to be done is to figure out how to get a list of all .
 
 The file **_taboo.txt_** holds the list of taboo words, in which it's formatted such that there's one taboo word per line.
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-1/blob/main/images/Taboo%20File.PNG "taboo.txt")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-1/images/Taboo%20File.PNG "taboo.txt")
 
 ### Sample Inputs:
 
 These are the 3 text files we'll be using our program on:
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-1/blob/main/images/Sample%20Input%201.PNG "Sample Input 1")
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-1/blob/main/images/Sample%20Input%202.PNG "Sample Input 2")
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-1/blob/main/images/Sample%20Input%203.PNG "Sample Input 3")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-1/images/Sample%20Input%201.PNG "Sample Input 1")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-1/images/Sample%20Input%202.PNG "Sample Input 2")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-1/images/Sample%20Input%203.PNG "Sample Input 3")
 
 After running our program, the files will look like this:
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-1/blob/main/images/Sample%20Output%201.PNG "Sample Output 1")
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-1/blob/main/images/Sample%20Output%202.PNG "Sample Output 2")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-1/images/Sample%20Output%201.PNG "Sample Output 1")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-1/images/Sample%20Output%202.PNG "Sample Output 2")
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-1/blob/main/images/Sample%20Output%203a.PNG "Sample Output 3a")
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-1/blob/main/images/Sample%20Output%203b.PNG "Sample Output 3b")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-1/images/Sample%20Output%203a.PNG "Sample Output 3a")
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-1/images/Sample%20Output%203b.PNG "Sample Output 3b")
 
 > Note: The first image for file3.txt shows that the file has been deleted due to it having more than 5 taboo words. The second image for file3.txt shows that the file that was deleted had its taboo words replaced with the appropriate amount of '\*'.
 
 The console output to the program looks like this:
 
-![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge-1/blob/main/images/Console%20Output.PNG "Console Output")
-
-> > > > > > > code-challenge-1/main
+![alt text](https://github.com/cyanChill/CSC-59005-Code-Challenge/blob/Coding-Challenge-1/images/Console%20Output.PNG "Console Output")
